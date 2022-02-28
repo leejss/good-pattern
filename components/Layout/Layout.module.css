@@ -1,0 +1,12 @@
+.Container {
+  display: grid;
+  grid-template-rows: 100px 1fr;
+}
+
+.Container > nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: seagreen;
+  padding: 15px;
+}
